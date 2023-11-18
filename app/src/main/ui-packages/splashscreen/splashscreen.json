@@ -1,0 +1,104 @@
+{
+  "name": "splashscreen",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "8k8HZXBnUiz99wzoHYyLjz",
+    "node": "108:196",
+    "version": "4584545653",
+    "component-id": "40e5e5f52579e62f0340498a55642603732d9517"
+  },
+  "default": "Splashscreen",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "4 1"
+      },
+      {
+        "type": "image",
+        "id": "4 2"
+      }
+    ],
+    "modes": {
+      "Splashscreen": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "20.0",
+            "is-structured": "false",
+            "children": [
+              "4 1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "4 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "53.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "273.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "254.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "254.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "4 2"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "4 2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "4_1.png",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Splashscreen",
+      "size": {
+        "width": 360.0,
+        "height": 800.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
